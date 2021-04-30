@@ -1,0 +1,11 @@
+Yang Hu, Huan Zhou, Cees de Laat, Zhiming Zhao,
+Concurrent container scheduling on heterogeneous clusters with multi-resource constraints,
+Future Generation Computer Systems,
+Volume 102,
+2020,
+Pages 562-573,
+ISSN 0167-739X,
+https://doi.org/10.1016/j.future.2019.08.025.
+(http://www.sciencedirect.com/science/article/pii/S0167739X19309446)
+Abstract: By effectively virtualizing operating systems and encapsulating necessary runtime contexts of software components and services, container technologies can significantly improve portability and efficiency for distributed application deployment. It flexibly extends virtual machine based cloud (Infrastructure-as-a-Service) as a much lighter virtual environment (container cluster) for agile application management. However, existing container management systems are not capable of handling concurrent requests efficiently, particularly for the underlying clusters with heterogeneous machines and the requested containers with multi-resource demands. In this paper, we propose an Enhanced Container Scheduler (ECSched) for efficiently scheduling concurrent container requests on heterogeneous clusters with multi-resource constraints. We formulate the container scheduling problem as a minimum cost flow problem (MCFP), and represent the container requirements using a specific graph data structure (flow network). ECSched affords flexibility in constructing the flow network based on a batch of concurrent requests, and performs the MCFP algorithm to schedule the concurrent requests in an online manner. We evaluate ECSched in different testbed clusters, and measure the scheduling overhead with large-scale simulations. The experimental results show that ECSched outperforms state-of-the-art container schedulers in container performance and resource efficiency, and only introduces a small and acceptable scheduling overhead in large-scale clusters.
+Keywords: Container; Concurrent scheduling; Heterogeneous cluster; Multi-resource constraints
